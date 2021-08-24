@@ -3,23 +3,52 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4915E05926CAAD8B0038481A /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4915E05826CAAD8B0038481A /* ApiService.swift */; };
+		4915E05D26CAB2970038481A /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4915E05C26CAB2970038481A /* GameModel.swift */; };
+		492F8A2426CE8AA7000F21B6 /* DetailGameResc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492F8A2326CE8AA7000F21B6 /* DetailGameResc.swift */; };
 		4952C05326C80DB9004E786B /* CRUDMvvmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4952C05226C80DB9004E786B /* CRUDMvvmApp.swift */; };
 		4952C05526C80DB9004E786B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4952C05426C80DB9004E786B /* ContentView.swift */; };
 		4952C05726C80DBB004E786B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4952C05626C80DBB004E786B /* Assets.xcassets */; };
 		4952C05A26C80DBB004E786B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4952C05926C80DBB004E786B /* Preview Assets.xcassets */; };
+		4952C06426C80EC9004E786B /* RestoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4952C06326C80EC9004E786B /* RestoModel.swift */; };
+		4952C06A26C80F1C004E786B /* RestoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4952C06926C80F1C004E786B /* RestoViewModel.swift */; };
+		4954EA0E26CC129E0020E3EC /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4954EA0D26CC129E0020E3EC /* Extension.swift */; };
+		4954EA1126CC171D0020E3EC /* DeveloperModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4954EA1026CC171D0020E3EC /* DeveloperModel.swift */; };
+		496363E326D3547200434AA6 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 496363E226D3547200434AA6 /* SDWebImageSwiftUI */; };
+		49999AE826CFD55B00A97BE8 /* ScreenshotModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49999AE726CFD55B00A97BE8 /* ScreenshotModel.swift */; };
+		49999AEB26CFD88600A97BE8 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49999AEA26CFD88600A97BE8 /* LoadingView.swift */; };
+		49CA90B326CF999F001B46F8 /* FavoritModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CA90B226CF999F001B46F8 /* FavoritModel.swift */; };
+		49CA90B626CFA523001B46F8 /* MyLocalStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CA90B526CFA523001B46F8 /* MyLocalStorage.swift */; };
+		49CA90B926CFB657001B46F8 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CA90B826CFB657001B46F8 /* ProfileView.swift */; };
+		49CA90BC26CFB667001B46F8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CA90BB26CFB667001B46F8 /* HomeView.swift */; };
+		49D5013A26CCB27F008BB2E9 /* DetailGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D5013926CCB27F008BB2E9 /* DetailGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4915E05826CAAD8B0038481A /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		4915E05C26CAB2970038481A /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		492F8A2326CE8AA7000F21B6 /* DetailGameResc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailGameResc.swift; sourceTree = "<group>"; };
 		4952C04F26C80DB9004E786B /* CRUDMvvm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRUDMvvm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4952C05226C80DB9004E786B /* CRUDMvvmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRUDMvvmApp.swift; sourceTree = "<group>"; };
 		4952C05426C80DB9004E786B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4952C05626C80DBB004E786B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4952C05926C80DBB004E786B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4952C05B26C80DBB004E786B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4952C06326C80EC9004E786B /* RestoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestoModel.swift; sourceTree = "<group>"; };
+		4952C06926C80F1C004E786B /* RestoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestoViewModel.swift; sourceTree = "<group>"; };
+		4954EA0D26CC129E0020E3EC /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		4954EA1026CC171D0020E3EC /* DeveloperModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperModel.swift; sourceTree = "<group>"; };
+		49999AE726CFD55B00A97BE8 /* ScreenshotModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotModel.swift; sourceTree = "<group>"; };
+		49999AEA26CFD88600A97BE8 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		49CA90B226CF999F001B46F8 /* FavoritModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritModel.swift; sourceTree = "<group>"; };
+		49CA90B526CFA523001B46F8 /* MyLocalStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLocalStorage.swift; sourceTree = "<group>"; };
+		49CA90B826CFB657001B46F8 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		49CA90BB26CFB667001B46F8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		49D5013926CCB27F008BB2E9 /* DetailGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,12 +56,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				496363E326D3547200434AA6 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4915E05626CAA9CF0038481A /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				4915E05826CAAD8B0038481A /* ApiService.swift */,
+				4954EA0D26CC129E0020E3EC /* Extension.swift */,
+				49CA90B526CFA523001B46F8 /* MyLocalStorage.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
 		4952C04626C80DB9004E786B = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +92,11 @@
 		4952C05126C80DB9004E786B /* CRUDMvvm */ = {
 			isa = PBXGroup;
 			children = (
+				4915E05626CAA9CF0038481A /* Config */,
+				4952C06826C80F0B004E786B /* View */,
+				4952C06726C80F04004E786B /* ViewModel */,
+				4952C06226C80EB7004E786B /* Model */,
 				4952C05226C80DB9004E786B /* CRUDMvvmApp.swift */,
-				4952C05426C80DB9004E786B /* ContentView.swift */,
 				4952C05626C80DBB004E786B /* Assets.xcassets */,
 				4952C05B26C80DBB004E786B /* Info.plist */,
 				4952C05826C80DBB004E786B /* Preview Content */,
@@ -67,6 +110,39 @@
 				4952C05926C80DBB004E786B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4952C06226C80EB7004E786B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4952C06326C80EC9004E786B /* RestoModel.swift */,
+				4915E05C26CAB2970038481A /* GameModel.swift */,
+				4954EA1026CC171D0020E3EC /* DeveloperModel.swift */,
+				492F8A2326CE8AA7000F21B6 /* DetailGameResc.swift */,
+				49CA90B226CF999F001B46F8 /* FavoritModel.swift */,
+				49999AE726CFD55B00A97BE8 /* ScreenshotModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4952C06726C80F04004E786B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4952C06926C80F1C004E786B /* RestoViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4952C06826C80F0B004E786B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4952C05426C80DB9004E786B /* ContentView.swift */,
+				49D5013926CCB27F008BB2E9 /* DetailGame.swift */,
+				49CA90B826CFB657001B46F8 /* ProfileView.swift */,
+				49CA90BB26CFB667001B46F8 /* HomeView.swift */,
+				49999AEA26CFD88600A97BE8 /* LoadingView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +161,9 @@
 			dependencies = (
 			);
 			name = CRUDMvvm;
+			packageProductDependencies = (
+				496363E226D3547200434AA6 /* SDWebImageSwiftUI */,
+			);
 			productName = CRUDMvvm;
 			productReference = 4952C04F26C80DB9004E786B /* CRUDMvvm.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +191,9 @@
 				Base,
 			);
 			mainGroup = 4952C04626C80DB9004E786B;
+			packageReferences = (
+				496363E126D3547200434AA6 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 4952C05026C80DB9004E786B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,8 +220,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4952C06A26C80F1C004E786B /* RestoViewModel.swift in Sources */,
+				49CA90BC26CFB667001B46F8 /* HomeView.swift in Sources */,
+				49CA90B926CFB657001B46F8 /* ProfileView.swift in Sources */,
+				49CA90B626CFA523001B46F8 /* MyLocalStorage.swift in Sources */,
+				49D5013A26CCB27F008BB2E9 /* DetailGame.swift in Sources */,
+				49999AEB26CFD88600A97BE8 /* LoadingView.swift in Sources */,
+				4915E05926CAAD8B0038481A /* ApiService.swift in Sources */,
+				4954EA0E26CC129E0020E3EC /* Extension.swift in Sources */,
 				4952C05526C80DB9004E786B /* ContentView.swift in Sources */,
+				49CA90B326CF999F001B46F8 /* FavoritModel.swift in Sources */,
+				49999AE826CFD55B00A97BE8 /* ScreenshotModel.swift in Sources */,
 				4952C05326C80DB9004E786B /* CRUDMvvmApp.swift in Sources */,
+				4952C06426C80EC9004E786B /* RestoModel.swift in Sources */,
+				4954EA1126CC171D0020E3EC /* DeveloperModel.swift in Sources */,
+				4915E05D26CAB2970038481A /* GameModel.swift in Sources */,
+				492F8A2426CE8AA7000F21B6 /* DetailGameResc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +422,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		496363E126D3547200434AA6 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		496363E226D3547200434AA6 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 496363E126D3547200434AA6 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4952C04726C80DB9004E786B /* Project object */;
 }
